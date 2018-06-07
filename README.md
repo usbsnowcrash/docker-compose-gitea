@@ -17,7 +17,7 @@ Data will be saved in separate docker volumes to enable easy upgrades!
 $ docker-compose up -d
 ```
 
-After that open gitea installer via browser: [http://localhost:3000](http://localhost:3000) and fill the form according your .env settings. 
+After that open gitea installer via browser: [http://localhost:3333](http://localhost:3333) and fill the form according your .env settings. 
 
 Set **`gitea-db:3306`** in _Host_ field and complete setup.
 
@@ -34,10 +34,9 @@ The first registered user has admin privileges.
 |GITEA_HOSTNAME         | Hostname for Gitea Application    |localhost      |
 |GITEA_WEB_PORT         | GUI-Port for accessing Gitea      |3000           |
 |GITEA_SSH_PORT         | Port for accessing Gitea via SSH  |2222           |
-|MYSQL_ROOT_PASSWORD    | MySQL root password               |root           |
-|MYSQL_DATABASE         | Database name for gitea           |gitea          |
-|MYSQL_USER             | Database user for gitea           |gitea          |
-|MYSQL_PASSWORD         | Password for MySQL user           |gitea          |
+|DATABASE               | Database name for gitea           |gitea          |
+|DB_USER                | Database user for gitea           |gitea          |
+|DB_PASSWORD            | Password for MySQL user           |gitea          |
 
 
 ## Create systemd unit

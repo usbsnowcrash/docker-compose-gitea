@@ -6,7 +6,7 @@ After=docker.service
 [Service]
 Restart=always
 
-WorkingDirectory=/opt/docker-compose-gitea/
+WorkingDirectory=/srv/gitea/
 
 # Remove old containers, images and volumes
 ExecStartPre=/usr/local/bin/docker-compose down -v
