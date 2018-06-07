@@ -32,8 +32,8 @@ The first registered user has admin privileges.
 | ----------------------|-----------------------------------|:-------------:|               
 |GITEA_VERSION          | Docker-Image-Version              |latest         |
 |GITEA_HOSTNAME         | Hostname for Gitea Application    |localhost      |
-|GITEA_WEB_PORT         | GUI-Port for accessing Gitea      |3000           |
-|GITEA_SSH_PORT         | Port for accessing Gitea via SSH  |2222           |
+|GITEA_WEB_PORT         | GUI-Port for accessing Gitea      |3333           |
+|GITEA_SSH_PORT         | Port for accessing Gitea via SSH  |22             |
 |DATABASE               | Database name for gitea           |gitea          |
 |DB_USER                | Database user for gitea           |gitea          |
 |DB_PASSWORD            | Password for MySQL user           |gitea          |
